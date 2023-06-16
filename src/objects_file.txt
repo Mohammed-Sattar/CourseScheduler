@@ -1,0 +1,3 @@
+CS 112 - Object Oriented Programming   09:30-10:45 MoWe//13:00-15:50 Tu |11:00-12:15 MoWe//08:00-10:50 We |08:00-09:15 MoWe//14:00-16:50 Th
+ENGL  102 - Introduction to Report Writing   08:00-09:15 MoWe//10:00-10:50 Th |08:00-09:50 Su//09:00-09:50 Tu//09:00-09:50 Th |13:00-13:50 TuThSu//12:00-12:50 Th |08:00-09:50 Su//09:00-09:50 Tu//09:00-09:50 Th |08:00-09:15 MoWe//10:00-10:50 Th
+GSOS 214 - Work and Society   13:00-13:50 TuThSu
