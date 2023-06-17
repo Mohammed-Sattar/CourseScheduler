@@ -14,6 +14,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.chrome.ChromeDriver; 
+import org.openqa.selenium.chrome.ChromeOptions; 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -24,13 +28,17 @@ public class WebScraping {
 
     static JDialog dialog = new JDialog();
     static EdgeOptions headlessOpt = new EdgeOptions();
+    // static FirefoxOptions headlessOpt = new FirefoxOptions();
+    // static ChromeOptions headlessOpt = new ChromeOptions();
 
     static  {
         dialog.setAlwaysOnTop(true);
         headlessOpt.addArguments("headless");
     } 
 
-    final static WebDriver driver = new EdgeDriver(headlessOpt);   // Initializing webdriver object
+    final static WebDriver driver = new EdgeDriver(headlessOpt);   // Initializing edge webdriver object
+    //final static WebDriver driver = new FirefoxDriver(headlessOpt);// Initializing firefox webdriver object
+    //final static WebDriver driver = new ChromeDriver(headlessOpt); // Initializing chrome webdriver object
     static WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
 
     static {
