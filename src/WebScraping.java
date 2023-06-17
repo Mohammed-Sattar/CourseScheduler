@@ -43,7 +43,9 @@ public class WebScraping {
 
     static {
         // Setting the webdriver and the path to it
-        System.setProperty("webdriver.edge.driver", "drivers\\msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver", "drivers\\webdriver.exe");
+        // System.setProperty("webdriver.gecko.driver", "drivers\\webdriver.exe");
+        // System.setProperty("webdriver.chrome.driver", "drivers\\webdriver.exe");
     }
 
 
